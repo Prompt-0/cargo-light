@@ -1,0 +1,25 @@
+[package]
+name = "cargo-light"
+version = "0.1.0"
+edition = "2021"
+authors = ["Antigravity <agy@google.com>"]
+description = "Rust binary dependency bloat analyzer with interactive Treemap visualizer and monomorphization/macro analysis"
+readme = "README.md"
+keywords = ["cargo", "bloat", "dependency", "tui", "treemap"]
+categories = ["development-tools", "command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive", "env"] }
+cargo_metadata = "0.18"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8"
+ratatui = "0.28"
+crossterm = "0.28"
+thiserror = "1.0"
+anyhow = "1.0"
+walkdir = "2.5"
+unicode-width = "0.1"
+
+[dev-dependencies]
+tempfile = "3.10"
