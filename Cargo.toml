@@ -2,7 +2,7 @@
 name = "cargo-light"
 version = "0.1.0"
 edition = "2021"
-authors = ["Antigravity <agy@google.com>"]
+authors = ["Ritesh"]
 description = "Rust binary dependency bloat analyzer with interactive Treemap visualizer and monomorphization/macro analysis"
 readme = "README.md"
 keywords = ["cargo", "bloat", "dependency", "tui", "treemap"]
